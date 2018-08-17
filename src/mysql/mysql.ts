@@ -12,13 +12,18 @@ export default class MySQL{
     {
         console.log("clase inicializada");
         this.cnn = mysql.createConnection({
-            host     : 'localhost',
-            user     : 'user-app-hua',
-            password : 'user-app-hua',
-            database : 'huachera-app'
+            host     : 'mysql7001.site4now.net',
+            user     : 'a3b08e_hu',
+            password : '16568057KKk',
+            database : 'db_a3b08e_hu'
         });
-
-        this.conectarDB();
+        // this.cnn = mysql.createConnection({
+        //     host     : 'localhost',
+        //     user     : 'root',
+        //     password : '',
+        //     database : 'db_a3b08e_hu'
+        // });
+        // this.conectarDB();
     }
 
 
